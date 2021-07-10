@@ -38,11 +38,12 @@ public class PracticeFormStepDefinitions {
     @When("^he fills all the requested fields in form section$")
     public void heFillsAllTheRequestedFieldsInFormSection() {
         theActorInTheSpotlight().attemptsTo(FillAllFaker.dateFaker());
-        SpecialMethods.ScreenShotPage(driver);
+
     }
 
     @Then("^The information is displayed and a screenshot is taken\\.$")
     public void theInformationIsDisplayedAndAScreenshotIsTaken() {
+        SpecialMethods.ScreenShotPage(driver);
 
     }
 
@@ -51,24 +52,24 @@ public class PracticeFormStepDefinitions {
     @When("^he fills all the requested fields in form section with properties$")
     public void heFillsAllTheRequestedFieldsInFormSectionWithProperties() {
         theActorInTheSpotlight().attemptsTo(FillAllProperties.dateProperties());
-        SpecialMethods.ScreenShotPage(driver);
+
     }
 
     @Then("^The information is displayed and a screenshot is taken with properties$")
     public void theInformationIsDisplayedAndAScreenshotIsTakenWithProper() {
-
+        SpecialMethods.ScreenShotPage(driver);
     }
 
     //Excel
     @When("^he fills all the requested fields in form section with excel$")
     public void heFillsAllTheRequestedFieldsInFormSectionWithExcel() {
         theActorInTheSpotlight().attemptsTo(FillAllExcel.dateExcel());
-        SpecialMethods.ScreenShotPage(driver);
+
     }
 
     @Then("^The information is displayed and a screenshot is taken with excel$")
     public void theInformationIsDisplayedAndAScreenshotIsTakenWithExcel() {
-
+        SpecialMethods.ScreenShotPage(driver);
     }
 
 }

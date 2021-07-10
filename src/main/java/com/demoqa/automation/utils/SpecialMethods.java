@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class SpecialMethods {
-    private static int consecutivo = 0;
+    private static int var = 0;
     public static Properties properties;
 
     public static void configProperties() {
@@ -31,10 +31,10 @@ public class SpecialMethods {
         try {
 
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(scrFile, new File("C:\\Users\\LENOVO\\IdeaProjects\\Reto_Screenplay\\screenshot\\Capturas_"+consecutivo+".jpg"));
-            consecutivo++;
-        }catch (IOException errorsito){
-            errorsito.printStackTrace();
+            FileUtils.copyFile(scrFile, new File("C:\\Users\\LENOVO\\IdeaProjects\\Reto_Screenplay\\screenshot\\Captura_"+var+".jpg"));
+            var++;
+        }catch (IOException error){
+            error.printStackTrace();
         }
     }
 

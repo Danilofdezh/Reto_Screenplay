@@ -26,7 +26,7 @@ public class FillAllProperties implements Task {
                 Enter.keyValues(SpecialMethods.properties.getProperty("subjects")).into(FormPage.SUBJECTS_INPUT),
                 Enter.keyValues(Keys.ENTER).into(FormPage.SUBJECTS_INPUT),
                 JavaScriptClick.on(FormPage.HOBBIES_CHECKBOX),
-                //Enter.keyValues(SpecialMethods.properties.getProperty("picture")).into(FormPage.SELECT_PICTURE_BUTTON),
+                Enter.keyValues(SpecialMethods.properties.getProperty("picture")).into(FormPage.SELECT_PICTURE_BUTTON),
                 Enter.keyValues(SpecialMethods.properties.getProperty("currentAddress")).into(FormPage.CURRENT_ADDRESS_INPUT),
                 Enter.theValue(SpecialMethods.properties.getProperty("state"), Keys.ENTER).into(FormPage.STATE_INPUT),
                 Enter.keyValues(Keys.ENTER).into(FormPage.STATE_INPUT),
