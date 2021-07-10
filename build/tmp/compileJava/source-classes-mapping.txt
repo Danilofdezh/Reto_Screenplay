@@ -1,0 +1,18 @@
+com/demoqa/automation/utils/SpecialMethods.java
+ com.demoqa.automation.utils.SpecialMethods
+com/demoqa/automation/models/DataInjection.java
+ com.demoqa.automation.models.DataInjection
+com/demoqa/automation/tasks/FillAllFaker.java
+ com.demoqa.automation.tasks.FillAllFaker
+com/demoqa/automation/interactions/OpenTheBrowser.java
+ com.demoqa.automation.interactions.OpenTheBrowser
+com/demoqa/automation/tasks/FillAllProperties.java
+ com.demoqa.automation.tasks.FillAllProperties
+com/demoqa/automation/utils/Java.java
+ com.demoqa.automation.utils.Java
+com/demoqa/automation/ui/FormPage.java
+ com.demoqa.automation.ui.FormPage
+com/demoqa/automation/utils/Excel.java
+ com.demoqa.automation.utils.Excel
+com/demoqa/automation/tasks/FillAllExcel.java
+ com.demoqa.automation.tasks.FillAllExcel

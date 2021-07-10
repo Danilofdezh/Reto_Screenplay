@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Practice form" skipped="0" tests="3" time="304.08" timestamp="2021-07-09 10:10:55"><testcase name="Full practice form faker"/><testcase name="Full practice form Excel"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:222)&#13;
+org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)&#13;
+org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:104)&#13;
+org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:312)&#13;
+org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)&#13;
+org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:299)&#13;
+com.demoqa.automation.utils.Excel.getCellValue(Excel.java:27)&#13;
+com.demoqa.automation.tasks.FillAllExcel.performAs(FillAllExcel.java:23)&#13;
+com.demoqa.tests.stepdefinitions.PracticeFormStepDefinitions.heFillsAllTheRequestedFieldsInFormSectionWithExcel(PracticeFormStepDefinitions.java:65)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Full practice form properties"/></testsuite>
